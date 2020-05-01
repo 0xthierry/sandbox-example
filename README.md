@@ -52,18 +52,16 @@ After do the step above you need to do a POST to /executor endpoint in sandbox a
 
 ```json
 {
-	"source": "git",
+    "source": "git",
     "origin": "https://github.com/thierrysantos/sandbox-example.git",
-	"startCommand": "npm start",
-	"image": "node:12"
+    "startCommand": "npm start",
+    "image": "node:12"
 }
 ```
  
 ## Authors :pencil2:
 
 * **Thierry Santos** - *Initial work* - [Thierry Santos](https://github.com/thierrysantos)
-
-See also the list of [contributors](https://github.com/thierrysantos/sandbox/contributors) who participated in this project.
 
 ## License :newspaper:
 
