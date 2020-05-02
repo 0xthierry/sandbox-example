@@ -4,5 +4,5 @@ const axios = require('axios');
   const response = await axios.get(
     'https://api.github.com/users/thierrysantos'
   );
-  console.log(response.data);
+  console.log(JSON.stringify(response.data, null, 2));
 })();
